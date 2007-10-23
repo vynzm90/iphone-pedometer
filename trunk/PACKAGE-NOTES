@@ -1,0 +1,7 @@
+On install, this needs to run:
+# launchctl load -w /Library/LaunchDaemons/com.spiffytech.pedometer-daemon.plist 
+
+
+On uninstall, this is needed:
+# launchctl unload -w /Library/LaunchDaemons/com.spiffytech.pedometer-daemon.plist 
+
